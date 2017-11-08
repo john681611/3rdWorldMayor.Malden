@@ -35,3 +35,11 @@ Loose election- Effectively you have to hide or die or be arrested.
 Drive the gangs out.
 Drive the yanks out (dictator end)
 ```
+
+
+Object definitaions (because arma dosen't have objects so im using arrays for now)
+```
+town = [ 0zonemkr, 1textmkr, 2name,  3income, 4owner];
+
+owner = [0CIV,1OPFOR,2BLUFOR];
+```
