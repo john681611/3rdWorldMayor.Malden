@@ -184,13 +184,13 @@ class Mission
 				angles[]={-0,1.5991961,-0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				textures="Orange";
 			};
 			id=2;
 			type="C_SUV_01_F";
+			atlOffset=0.53067017;
 		};
 	};
 };
