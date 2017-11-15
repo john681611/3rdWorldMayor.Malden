@@ -5,6 +5,7 @@ func_get_town = compile preprocessfilelinenumbers "Server\functions\func_get_tow
 func_set_town_owner = compile preprocessfilelinenumbers "Server\functions\func_set_town_owner.sqf";
 [] execVM "Server\z_townmgr.sqf";
 waitUntil {ztowninit==1};
+setTimeMultiplier 12;
  //Fog limiter
  while {true} do
  {
